@@ -17,7 +17,7 @@ baseurl                  : "" # Set this to "portfolio-<your-github-username>"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 
 # Theme and Style
-theme: jekyll-theme-minimal
+theme: jekyll-theme-minima
 color_scheme: aqua # light/default, dark, or aqua
 
 sass:
