@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Aloyse Maille>
+title: Aloyse Maille
 ---
 
 ## About Me

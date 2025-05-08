@@ -3,6 +3,7 @@ layout: project
 title: ZT Group
 description: Research
 technologies: [Clean Room, Experimental tools]
+image: /assets/images/ZT_Group.jpg
 ---
 
 FI am part of the experimental side of the subgroup working on implementing 2D-materials on quantum devices. As part of the research, I am trained to use:
