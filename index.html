@@ -32,5 +32,14 @@
     Take a look at <a href="/projects/">my projects</a> and <a href="/cv/">CV</a>.
   </p>
 
+  <script>
+    const mobileMenu = document.getElementById('mobile-menu');
+    const navLinks = document.getElementById('nav-links');
+  
+    mobileMenu.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+  
 </body>
 </html>
