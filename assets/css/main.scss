@@ -1,7 +1,3 @@
----
-# this ensures Jekyll reads the file to be transformed into CSS later
-# only Main files contain this front matter, not partials.
---- 
 
 $color_scheme: '{{ site.color_scheme }}';
 
@@ -16,62 +12,61 @@ header {
     top: 0;
     background-color: #1a1a1a;
     z-index: 1000;
-  }
-  
-  .navbar {
+}
+
+.navbar {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-between; /* Space between logo and nav links */
+    align-items: center; /* Vertically center */
     padding: 1rem 2rem;
-    color: white;
-  }
-  
-  .logo {
+    color: rgb(107, 105, 251); /* Change to the color you prefer */
+}
+
+.logo {
     font-size: 1.5rem;
     font-weight: bold;
-  }
-  
-  .nav-links {
-    display: flex;
+}
+
+.nav-links {
+    display: flex; /* Align links horizontally */
     list-style: none;
-    gap: 2rem;
-  }
-  
-  .nav-links a {
+    gap: 2rem; /* Space between the links */
+}
+
+.nav-links a {
     text-decoration: none;
     color: white;
     font-weight: 500;
     transition: color 0.3s ease;
-  }
-  
-  .nav-links a:hover {
+}
+
+.nav-links a:hover {
     color: #f39c12;
-  }
-  
-  .menu-toggle {
+}
+
+.menu-toggle {
     display: none;
     font-size: 2rem;
     cursor: pointer;
     color: white;
-  }
-  
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
     .nav-links {
-      position: absolute;
-      top: 100%;
-      right: 0;
-      background-color: #1a1a1a;
-      flex-direction: column;
-      width: 200px;
-      display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: #1a1a1a;
+        flex-direction: column; /* Stack the links vertically on mobile */
+        width: 200px;
+        display: none; /* Hide links by default */
     }
-  
+
     .nav-links.active {
-      display: flex;
+        display: flex; /* Show links when active */
     }
-  
+
     .menu-toggle {
-      display: block;
+        display: block; /* Show hamburger icon on small screens */
     }
-  }
-  
+}
