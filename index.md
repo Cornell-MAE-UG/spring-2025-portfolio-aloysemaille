@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Your Name>
+title: <Aloyse Maille>
 ---
 
 ## About Me
@@ -9,8 +9,6 @@ title: <Your Name>
 ![Profile Picture](assets/images/profile-pic.jpg){: class="profile-image"}
 
  
-My name is {{ site.name }}, and I am [your pitch paragraph about your passions, knowledge and interestst.] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
-
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+My name is {{ site.name }}, and I am a French and Canadian citizen but lived in Paris, where I was born, my entire life before coming to the US to study engineering at Cornell University. I absolutely love to discover new places and meet new people, so I travel a lot. I always do a lot of sport, I am currently part of Cornell's Women Varsity Polo Team and Cornell Taekwondo Club. I also enjoy reading and doing art in my free time. My current career goals are to expand my knowledge of the space and quantum fields and gain experience in both. I am particularly interested in research and development, design and project management.
 
 Take a look at <a href="{{ "/projects/" | relative_url }}">my projects</a> and <a href="{{ "/cv/" | relative_url }}">CV</a>.
