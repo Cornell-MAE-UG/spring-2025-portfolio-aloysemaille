@@ -5,6 +5,6 @@ permalink: /cv/
 ---
 ## Curriculum Vitae
 
-You can download my [CV]({{ "/assets/cv.pdf" | relative_url }}) at the link.
+You can download my [CV](assets/CV.pdf) at the link.
 
 
