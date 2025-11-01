@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Aloyse Maille - Portfolio
+title: Projects
 permalink: /projects/
 ---
 
