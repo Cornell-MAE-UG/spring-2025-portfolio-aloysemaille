@@ -12,9 +12,10 @@ title                    : Aloyse Maille
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Aloyse Maille
-description              : Aloyse Maille - Projects and CV 
-baseurl: "/AloyseMaillePortfolio"
-url: "https://aloysemaille.github.io"
+description              : Aloyse Maille - Projects and CV - Cornell
+baseurl: "/spring-2025-portfolio-aloysemaille"
+url: "https://cornell-mae-ug.github.io"
+
 
 # Theme and Style
 theme: jekyll-theme-minimal
