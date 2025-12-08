@@ -25,3 +25,7 @@ our phones and other fun things.</p>
 
 <p>In the context of that project, I worked on the development of the state space models and block diagrams of the satellite pointing control system. I developed a simplified disturbance model of the satellite and participated in the performance requirement parameters design, as well as in the MATLAB modelization of the system.</p> 
 </div>
+
+<div>
+<p>Work conducted in collaboration with Olivia Lee, Ethan Kim and Benjamin Okoronkwo, Cornell Mechanical Engineering Students.</p> 
+</div>

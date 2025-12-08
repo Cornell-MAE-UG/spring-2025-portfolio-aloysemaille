@@ -60,5 +60,8 @@ great way to prevent injuries or pain from holding the tool.</p>
 <p>The code above was used for all hand calculations, both for that baseline design and for the improved design.</p> 
 </div>
 
+<div>
+<p>Work conducted in collaboration with Olivia Santiago, Cornell Mechanical Engineering Student.</p> 
+</div>
 
 
