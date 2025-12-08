@@ -23,13 +23,21 @@ image: /assets/images/MM16.png
 <div>
 
 <img src="{{ site.baseurl }}/assets/images/MM3.png" style="width:300px; border-radius:10px;" />
-<img src="{{ site.baseurl }}/assets/images/MM4.png" style="width:300px; border-radius:10px;" />
-<img src="{{ site.baseurl }}/assets/images/MM13.png" style="width:300px; border-radius:10px;" />
 <img src="{{ site.baseurl }}/assets/images/MM14.png" style="width:300px; border-radius:10px;" />
+<img src="{{ site.baseurl }}/assets/images/MM13.png" style="width:300px; border-radius:10px;" />
+<img src="{{ site.baseurl }}/assets/images/MM4.png" style="width:300px; border-radius:10px;" />
 
 <div>
-<p>XXXXX</p> 
+<p>To improve user experience and the aesthetics of the design, a grip design can be added to the handle. Its material can be changed to be a high stiffness rubber such as EPDM (Ethylene Propylene Diene Monomer) or Neoprene. This material is meant to provide more grip comfort. The design could have the handle part entirely made out of rubber or have a center of steel alloy like the
+arm then wrapped with a layer of rubber. In addition to those changes, fillets have been added to the edges of the arm and the handle. Those fillets serve both aesthetic and safety purposes, as the rounded shape is not only more pleasing to the eye but also a
+great way to prevent injuries or pain from holding the tool.</p> 
 </div>
 
-<img src="{{ site.baseurl }}/assets/images/MM15.png" style="width:300px; border-radius:10px;" />
+<img src="{{ site.baseurl }}/assets/images/MM15.png" 
+
+<div>
+<p>The code above was used for all hand calculations, both for that baseline design and for the improved design.</p> 
+</div>
+
+style="width:300px; border-radius:10px;" />
 
