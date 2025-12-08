@@ -19,7 +19,9 @@ image: /assets/images/MM16.png
 <div>
 <p>This is the final project of MAE 3270: Mechanics of Engineering Material.</p>
     
-<p>XXXXXXXX</p>
+<p>This design is simple but yet needs careful analysis in order to meet the users needs and have a
+reasonable service life. The updated torque wrench design using AerMet 100 high alloy steel successfully meets all
+engineering requirements while maintaining manufacturability and cost effectiveness. </p>
 <div>
 
 <div style="display:grid; grid-template-columns:repeat(2,1fr); gap:10px; align-items:start;">
