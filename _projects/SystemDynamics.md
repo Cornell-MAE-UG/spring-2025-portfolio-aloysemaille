@@ -1,15 +1,15 @@
 ---
 layout: project
-title: North Star - Satellite Pointing Control
+title: North Star - Pointing Control for Satellites
 description: System Dynamics Final Project
-technologies: [MATLAB, State-Space models, Block Diagram, PD Control]
+technologies: [MATLAB, State-Space models, Block Diagram, PD Control, requirements]
 image: /assets/images/SD7.png
 ---
-<img src="{{ site.baseurl }}/assets/images/SD1.png" style="width:300px; border-radius:10px;" />
+<img src="{{ site.baseurl }}/assets/images/SD5.png" style="width:300px; border-radius:10px;" />
 <img src="{{ site.baseurl }}/assets/images/SD2.png" style="width:300px; border-radius:10px;" />
 <img src="{{ site.baseurl }}/assets/images/SD3.png" style="width:300px; border-radius:10px;" />
 <img src="{{ site.baseurl }}/assets/images/SD4.png" style="width:300px; border-radius:10px;" />
-<img src="{{ site.baseurl }}/assets/images/SD5.png" style="width:300px; border-radius:10px;" />
+<img src="{{ site.baseurl }}/assets/images/SD1.png" style="width:300px; border-radius:10px;" />
 <img src="{{ site.baseurl }}/assets/images/SD6.png" style="width:300px; border-radius:10px;" />
 
 <div>
@@ -23,5 +23,5 @@ actively work with such systems in the future, we still use them directly or ind
 They are used for radio and television communications but can also now be used for messaging on
 our phones and other fun things.</p>
 
-<p>In the context of that project, I worked on the development of the state space models and block diagrams of the satellite pointing control system. I developed a simplified disturbance model of the satellite and participated in the performance parameter design, as well as in the MATLAB modelization of the system.</p> 
+<p>In the context of that project, I worked on the development of the state space models and block diagrams of the satellite pointing control system. I developed a simplified disturbance model of the satellite and participated in the performance requirement parameters design, as well as in the MATLAB modelization of the system.</p> 
 </div>
