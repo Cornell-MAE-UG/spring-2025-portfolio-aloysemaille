@@ -2,7 +2,7 @@
 layout: project
 title: Torque Wrench Design
 description: Mechanics of Engineering Materials Final Project
-technologies: []
+technologies: [ANSYS, FEM Analysis, MATLAB, CAD, Fusion, Rendering, Stress/Strain Analysis, Strain Gauge, Beam Theory Analysis, Fracture Toughness, Service Life, Fatigue]
 image: /assets/images/MM16.png
 ---
 <img src="{{ site.baseurl }}/assets/images/MM1.png" style="width:300px; border-radius:10px;" />
