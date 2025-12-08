@@ -23,7 +23,7 @@ image: /assets/images/MM16.png
 <div>
 
 <img src="{{ site.baseurl }}/assets/images/MM3.png" style="width:300px; border-radius:10px;" />
-<img src="{{ site.baseurl }}/assets/images/MM14.png" style="width:300px; border-radius:10px;" />
+<img src="{{ site.baseurl }}/assets/images/MM14.png" style="width:300px; border-radius:10px;"\n />
 <img src="{{ site.baseurl }}/assets/images/MM13.png" style="width:300px; border-radius:10px;" />
 <img src="{{ site.baseurl }}/assets/images/MM4.png" style="width:300px; border-radius:10px;" />
 
@@ -33,11 +33,11 @@ arm then wrapped with a layer of rubber. In addition to those changes, fillets h
 great way to prevent injuries or pain from holding the tool.</p> 
 </div>
 
-<img src="{{ site.baseurl }}/assets/images/MM15.png" 
+<img src="{{ site.baseurl }}/assets/images/MM15.png" style="width:300px; border-radius:10px;" /> 
 
 <div>
 <p>The code above was used for all hand calculations, both for that baseline design and for the improved design.</p> 
 </div>
 
-style="width:300px; border-radius:10px;" />
+
 
