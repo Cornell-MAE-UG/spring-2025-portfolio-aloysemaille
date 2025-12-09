@@ -18,6 +18,10 @@ image: /assets/images/F1.png
 
 <div>
 <p>This is the final groupwork of MAE 3230: Introduction to Fluid Dynamics.</p>
+
+<p>https://youtu.be/3ZLGq0wO1b0</p>
+
+<p> In his project, I worked on the weed whacker dissection itself, deconstructing the object in order to understand how it works. I make the block diagram and drew some of the schematics for our presentation. I participated in the uncovering of the principles and the mechanisms of the device. Finally, I participated in the video voice over.</p>
     
 <p>This project consisted in the dissection of a fluid device, which in our case was a weed whacker, in order to identify the relevant components and proceed to the fluid analysis of the system.</p>
 
