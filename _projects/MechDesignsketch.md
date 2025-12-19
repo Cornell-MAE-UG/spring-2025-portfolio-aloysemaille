@@ -1,7 +1,7 @@
 ---
 layout: project
-title: North Star - Pointing Control for Satellites
-description: System Dynamics Final Project
+title: Mechanical Design
+description: Mech design favorites
 technologies: [MATLAB, State-Space models, Block Diagram, PD Control, requirements]
 image: /assets/images/MD1sk.png
 ---
