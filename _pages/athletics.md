@@ -16,7 +16,7 @@ permalink: /athletics/
   <img src="{{ site.baseurl }}/assets/images/TKD1.png" style="width:300px; border-radius:10px;" />
   <img src="{{ site.baseurl }}/assets/images/TKD2.JPG" style="width:300px; border-radius:10px;" />
   <img src="{{ site.baseurl }}/assets/images/TKD3.PNG" style="width:300px; border-radius:10px;" />
-  <p> During my first semester at Cornell I discovered taekwondo. I went from white belt to currently red belt and won several sparring medals in intercollegiate tournaments. Taekwondo is not my primary sport, however I believe it adds a lot to my athletic training for polo, helping me gain more flexibility, be stronger and have more balance. 
+  <p> During my first semester at Cornell I discovered taekwondo. I went from white belt to currently black belt candidate and won several sparring medals in intercollegiate tournaments. Taekwondo is not my primary sport, however I believe it adds a lot to my athletic training for polo, helping me gain more flexibility, be stronger and have more balance. 
   </p>
   <h2>Eventing</h2>
   <img src="{{ site.baseurl }}/assets/images/EV1.png" style="width:300px; border-radius:10px;" />
