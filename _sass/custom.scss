@@ -15,8 +15,8 @@ $text-color: #333;
   $background-color: #eff6e0;
   $text-color: #ffffff;
 } @else if $color_scheme == 'desert' {
-  $primary-color: #0949AE;6983f7;
-  $background-color: #DCEBF9;  dae1ff;
+  $primary-color: #0949AE; //6983f7
+  $background-color: #DCEBF9;  //dae1ff
   $text-color: #241c29;
 }
 
