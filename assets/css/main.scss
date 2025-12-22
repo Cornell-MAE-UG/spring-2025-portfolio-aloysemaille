@@ -6,3 +6,63 @@
 $color_scheme: '{{ site.color_scheme }}';
 
 @import "custom";
+
+// ...existing code...
+
+/* About section layout */
+.about-section {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+  /* allow children to wrap when space is constrained */
+  flex-wrap: wrap;
+}
+
+/* Make the profile image responsive */
+.profile-image {
+  width: 220px;        /* ideal desktop size */
+  max-width: 35%;      /* prevent it from growing too large relative to container */
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  flex: 0 0 auto;
+}
+
+/* Text area grows to fill remaining space */
+.about-text {
+  flex: 1 1 300px;     /* allow shrinking, but keep at least 300px when possible */
+  min-width: 0;        /* important for truncation issues inside flex items */
+}
+
+/* Ensure paragraphs wrap instead of overflowing */
+.about-description,
+.about-text p {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+/* Narrow screens: stack vertically and center-align */
+@media (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1.25rem;
+  }
+
+  .profile-image {
+    width: 140px;
+    max-width: 60%;
+    margin-bottom: 0.75rem;
+  }
+
+  .about-text {
+    flex-basis: 100%;
+  }
+
+  .about-me-section {
+    padding: 1rem;
+  }
+}
