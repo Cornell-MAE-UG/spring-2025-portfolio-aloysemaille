@@ -17,8 +17,8 @@ $color_scheme: '{{ site.color_scheme }}';
 }
 
 .profile-image {
-  width: 320px;        /* keep image big on desktop */
-  max-width: 45%;
+  width: 600px;        /* keep image big on desktop */
+  //max-width: 45%;
   height: auto;
   border-radius: 8px;
   object-fit: cover;
