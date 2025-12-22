@@ -7,17 +7,18 @@ $color_scheme: '{{ site.color_scheme }}';
 
 @import "custom";
 
-/* Responsive about section tweaks */
+/* Keep image large on desktop but stack on small screens */
 .about-section {
   display: flex;
   align-items: center;
-  gap: 1.25rem;
+  gap: 1.5rem;
   flex-wrap: wrap;
+  padding: 2rem 1rem;
 }
 
 .profile-image {
-  width: 180px;        /* desktop size */
-  max-width: 35%;
+  width: 320px;        /* keep image big on desktop */
+  max-width: 45%;
   height: auto;
   border-radius: 8px;
   object-fit: cover;
@@ -25,27 +26,29 @@ $color_scheme: '{{ site.color_scheme }}';
 }
 
 .about-text {
-  flex: 1 1 300px;
-  min-width: 0;        /* prevents text from being clipped in flex items */
+  flex: 1 1 320px;
+  min-width: 0;        /* prevents clipping inside flex */
+  text-align: left;    /* preserve original left alignment on wide screens */
 }
 
-/* ensure paragraphs wrap instead of overflowing */
+/* paragraphs wrap properly */
 .about-description {
   overflow-wrap: break-word;
   word-break: break-word;
   hyphens: auto;
 }
 
-/* Stack image above text on small screens */
+/* Stack image above text on small screens and make image smaller */
 @media (max-width: 768px) {
   .about-section {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 1.25rem;
   }
 
   .profile-image {
-    width: 120px;
+    width: 200px;      /* smaller on mobile but still visible */
     max-width: 60%;
     margin-bottom: 0.75rem;
   }
