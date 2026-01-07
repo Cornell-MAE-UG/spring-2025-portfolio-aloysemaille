@@ -322,19 +322,28 @@ main.container {
 
   .carousel {
     position: relative;
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 800px; /* Adjusted for three images */
+    margin: 0; /* Aligned to the left */
     overflow: hidden;
   }
   .carousel-container {
     display: flex;
-    transition: transform 0.5s ease;
+    justify-content: center;
+    align-items: center;
   }
-  .carousel img {
+  .carousel .left img, .carousel .right img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 10px;
+    opacity: 0.5;
+  }
+  .carousel .center img {
     width: 300px;
     height: auto;
     border-radius: 10px;
     margin: 0 10px;
+    opacity: 1;
   }
   .carousel-btn {
     position: absolute;
@@ -354,7 +363,21 @@ main.container {
   .carousel-btn.next {
     right: 10px;
   }
-  
+
+   .technologies {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+  }
+  .tech-box {
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: #666;
+  }
+
 // Athletics page styles
 .sport-section {
   margin-bottom: 0px;
