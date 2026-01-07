@@ -342,6 +342,9 @@ main.container {
 
  .sport-section {
     margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 0; 
   }
   .image-grid {
     display: grid;
@@ -361,7 +364,7 @@ main.container {
   .sport-title {
     text-align: left;
     text-transform: uppercase;
-    margin-top: -40px;
+    margin-top: 0px;
     margin-bottom: 0;
   }
   .sport-description {
@@ -409,9 +412,9 @@ main.container {
 .box {
   flex: 1;
   padding: 15px;
-  border: 1px solid #0c55858c;
+  border: 0px solid #0c55858c;
   border-radius: 8px;
   background-color: #0c55858c;
-  //box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   color: white;
 }
