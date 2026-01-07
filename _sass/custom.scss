@@ -165,7 +165,6 @@ main.container {
   color: #0d0d13;
   margin-bottom: 0;
   margin-top: 20px;
-  font-weight: bold;
   margin-left: 100px;
   margin-right: 100px;
   justify-content: center;
@@ -379,6 +378,15 @@ main.container {
     font-size: 0.9rem;
     color: #666;
   }
+
+  .project-header {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 2rem;
+  color: #0d0d13;
+  margin-bottom: 20px;
+  text-align: left;
+}
 
 // Athletics page styles
 .sport-section {
