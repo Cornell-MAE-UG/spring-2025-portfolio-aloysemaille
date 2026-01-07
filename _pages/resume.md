@@ -6,20 +6,20 @@ permalink: /resume/
 
 <style>
   #english-btn, #french-btn {
-    background-color: #4CAF50;
+    background-color: #0C5485;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     margin: 0 10px;
-    font-size: 16px;
+    font-size: 12px;
   }
   #english-btn:hover, #french-btn:hover {
-    background-color: #45a049;
+    background-color: #0c476eff;
   }
   #english-btn.active, #french-btn.active {
-    background-color: #45a049;
+    background-color: #0C5485;
   }
 </style>
 
