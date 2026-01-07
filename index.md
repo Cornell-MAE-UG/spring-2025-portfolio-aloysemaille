@@ -16,23 +16,17 @@
   <h2>ABOUT ME</h2>
   <div class="boxes-container">
     <div class="box">
-      <p> FRENCH and CANADIAN</p>
+      <p> FRENCH and CANADIAN. Lived in Paris my entire life before coming to the US to study engineering at CORNELL University.</p>
     </div>
     <div class="box">
-      <p> I lived in Paris my entire life before coming to the US to study engineering at CORNELL University. </p>
+      <p> Current career goals: expand my knowledge of the space and quantum fields and gain experience in both. Particularly interested in RESEARCH & DEVELOPMENT, DESIGN and PROJECT MANAGEMENT. </p>
     </div>
     <div class="box">
-      <p> My current career goals are to expand my knowledge of the space and quantum fields and gain experience in both. I am particularly interested in RESEARCH & DEVELOPMENT, DESIGN and PROJECT MANAGEMENT. </p>
-    </div>
-    <div class="box">
-      <p> STUDENT-ATHLETE </p>
-    </div>
-    <div class="box">
-      <p> Love to travel, read, do sports and make art. </p>
+      <p> STUDENT-ATHLETE. Also loves to travel, read, do sports and make art.</p>
     </div>
   </div>
-  <p>
-    Take a look at <a href="{{ site.baseurl }}/projects/">my projects</a> and <a href="{{ site.baseurl }}/AloyseMaille_CV_EN.pdf">resume</a>.
+  <p class="take-look">
+    Take a look at <a href="{{ site.baseurl }}/projects/">my projects</a> and <a href="{{ site.baseurl }}/resume/">my resume</a>.
   </p>  
 </div>
 
