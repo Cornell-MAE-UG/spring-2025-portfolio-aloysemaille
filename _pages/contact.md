@@ -8,11 +8,17 @@ permalink: /contact/
   <h2>How to contact me?</h2>
   <p>
     US phone number: +1 (607) 797-5994
+  </p>
+  <p>
     FR phone number: +33 7 89 47 77 81
+  </p>
+  <p>
     (Please understand that only one line is active as I move from one continent to the other.)
   </p>
   <p> 
     Email pro: aam299@cornell.edu
+  </p>
+  <p> 
     Email perso: maille.a@orange.fr
   </p>
   <p>
