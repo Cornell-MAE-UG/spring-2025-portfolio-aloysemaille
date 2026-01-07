@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 // Default to light theme
 $primary-color: #707da5;
 $background-color: #f9f9f9;
@@ -15,11 +16,12 @@ $text-color: #333;
   $background-color: #eff6e0;
   $text-color: #ffffff;
 } @else if $color_scheme == 'desert' {
-  $primary-color: #0C5485; //6983f7, 3746c9
-  $background-color: #b3c6d8;  //dae1ff
+  $primary-color: #0C5485;
+  $background-color: #b3c6d8;
   $text-color: #241c29;
 }
 
+// General styles
 body {
   font-family: 'Montserrat';
   line-height: 1.6;
@@ -42,17 +44,6 @@ header {
 footer {
   text-align: center;
   margin-top: 40px;
-}
-
-.project-item img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-.project-item h3 {
-  margin-top: 15px;
-  font-size: 1.25em;
 }
 
 .btn {
@@ -81,126 +72,14 @@ footer {
 .highlight .p { color: #89ddff; }
 .highlight .o { color: #ff5370; }
 
-.about-section {
-  display: flex;
-  align-items: flex-start;
-  gap: 40px;
-  margin-top: 0;
-  margin-left: -2.5rem;  
-  } 
-
-.about-text h1 {
-  font-size: 4.5rem;
-  font-family: 'Poppins';
-  letter-spacing: 1px;
-  color: #0d0d13; // or your preferred color
-  margin-bottom: 0;
-  margin-left: 100px;
-  margin-right: 100px;
-  justify-content: center;
-  }
-
-.about-text h3 {
-  font-size: 1.5rem;
-  font-family: 'Poppins';
-  letter-spacing: 1px;
-  color: #0d0d13; // or your preferred color
-  margin-left: 100px;
-  margin-right: 100px;
-  justify-content: center;
-  }
-main.container {
-  margin-left: 90px;           // keep this for sidebar space
-  padding: 0 2rem 2rem 0;      // remove top and left padding
-  }
-  
-.about-text {
-  flex: 1;
-  margin-top: 250px; // Adjust this value as needed
-}
-
-.profile-image {
-  width: 600px;
-  object-fit: cover;
-  margin: 0;
-  display: flex;
-  align-self: left;
-  justify-content: left;
-  margin-left: 0;
-  margin-bottom: 25px; /*trying that*/
-}
-
-.about-text {
-  flex: 1;
-}
-
-.project-image {
-  float: left;
-  margin: 20px 25px 25px 0;
-  max-width: 200px;
-  vertical-align: top;
-}
-
-.gallery-container {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-}
-
-.project-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 20px;
-  padding: 20px;
-  margin: 0 auto;
-  max-width: 100%;
-}
-
-.gallery-item {
-  overflow: hidden;
-  text-align: center;
-  transition: transform 0.3s ease;
-  max-width: 250px; 
-  max-height: 300px; 
-}
-
-.gallery-item img {
-  width: 100%;
-  height: 85%;
-  display: block;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.gallery-item p {
-  margin: 13px 0;
-  font-size: 1rem;
-  color: $text-color;
-}
-
-.gallery-item a {
-  text-decoration: none;
-}
-
-.gallery-item:hover {
-  transform: scale(1.05); 
-}
-
-.project-image {
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* --- Sidebar styles for vertical navigation --- */
+// Sidebar styles
 .sidebar {
   position: fixed;
   left: 0;
   top: 0;
   width: 50px;
   height: 100vh;
-  background: #0C5485;//6983f7;2f469e last
+  background: #0C5485;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -208,9 +87,8 @@ main.container {
   z-index: 1000;
 }
 
-/* Use a wrapper div for vertical centering */
 .sidebar-content {
-  height : 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -224,7 +102,7 @@ main.container {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;      // center links horizontally
+  align-items: center;
   justify-content: center;
 }
 
@@ -261,10 +139,55 @@ main.container {
   opacity: 1;
 }
 
-/* Shift main content to the right of sidebar */
 main.container {
   margin-left: 90px;
   padding: 0 2rem 2rem 0;
+}
+
+// Home page styles (index.md)
+.about-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 0;
+  margin-left: -2.5rem;
+}
+
+.about-text {
+  flex: 1;
+  margin-top: 250px;
+}
+
+.about-text h1 {
+  font-size: 4.5rem;
+  font-family: 'Poppins';
+  letter-spacing: 1px;
+  color: #0d0d13;
+  margin-bottom: 0;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: center;
+}
+
+.about-text h3 {
+  font-size: 1.5rem;
+  font-family: 'Poppins';
+  letter-spacing: 1px;
+  color: #0d0d13;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: center;
+}
+
+.profile-image {
+  width: 600px;
+  object-fit: cover;
+  margin: 0;
+  display: flex;
+  align-self: left;
+  justify-content: left;
+  margin-left: 0;
+  margin-bottom: 25px;
 }
 
 .scroll-down {
@@ -280,20 +203,11 @@ main.container {
 .down-arrow {
   font-size: 2.5rem;
   animation: bounce 1.2s infinite;
-  /*margin-bottom: 300px;*/
 }
 
 @keyframes bounce {
-  0%, 100% { transform: translateY(0);}
-  50% { transform: translateY(12px);}
-}
-
-.about-description {
-  font-family: 'Montserrat';
-  font-size: 1rem;
-  margin-left: 0;
-  color: #0d0d13; // or your preferred color
-  justify-content: center;
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(12px); }
 }
 
 .about-me-section h2 {
@@ -301,21 +215,10 @@ main.container {
   font-weight: bold;
   font-size: 1.5rem;
   margin-left: 0;
-  margin-top: 40;
-  color: #0d0d13; 
+  margin-top: 40px;
+  color: #0d0d13;
   justify-content: center;
-  text-align: center
- }
-
-.contact-section h2 {
-  font-family: 'Montserrat';
-  font-weight: bold;
-  font-size: 1.5rem;
-  margin-left: 0;
-  color: #0d0d13; 
-  justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 10px;
+  text-align: center;
 }
 
 .about-me-section h2::before {
@@ -328,82 +231,7 @@ main.container {
   margin-left: 10px;
 }
 
-.contact-section h3 {
-  font-family: 'Montserrat';
-  font-weight: bold;
-  font-size: 1.5rem;
-  margin-left: 0;
-  color: #0d0d13; 
-  justify-content: center;
-  margin-top: 50px;
-  margin-bottom: 10px; 
-}
-  
-
- .sport-section {
-    margin-bottom: 0px;
-    display: flex;
-    flex-direction: column;
-    gap: 0; 
-  }
-  .image-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    width: 610px; /* Adjust to fit 2 images of 300px + gap */
-    margin: 0;
-    margin-top: 10px;
-    margin-bottom: 0;
-  }
-  .image-grid img {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-  }
-  .sport-title {
-    text-align: left;
-    text-transform: uppercase;
-    margin-top: 20px;
-    margin-bottom: 0;
-  }
-  .sport-description {
-    text-align: left;
-    margin-top:0px;
-    margin-bottom: 60px;
-  }
-
-  #english-btn, #french-btn {
-    background-color: #0C5485;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 0 10px;
-    font-size: 12px;
-  }
-  #english-btn:hover, #french-btn:hover {
-    background-color: #0c476eff;
-  }
-  #english-btn.active, #french-btn.active {
-    background-color: #0C5485;
-  }
-
-  .contact-section p {
-    margin-bottom: 10px;
-  }
-  .contact-section p.phone {
-    margin-bottom: 5px;
-  }
-  .contact-section p.note {
-    margin-bottom: 20px;
-  }
-  .contact-section p.email {
-    margin-bottom: 10px;
-  }
-
-  .boxes-container {
+.boxes-container {
   display: flex;
   gap: 20px;
   margin-top: 20px;
@@ -420,5 +248,170 @@ main.container {
 }
 
 .take-look {
-  margin-top: 30px; /* Adds space above the "Take a look" paragraph */
+  margin-top: 30px;
+}
+
+// Projects page styles
+.project-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-item h3 {
+  margin-top: 15px;
+  font-size: 1.25em;
+}
+
+.project-image {
+  float: left;
+  margin: 20px 25px 25px 0;
+  max-width: 200px;
+  vertical-align: top;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.gallery-item {
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease;
+  max-width: 250px;
+  max-height: 300px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 85%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item p {
+  margin: 13px 0;
+  font-size: 1rem;
+  color: $text-color;
+}
+
+.gallery-item a {
+  text-decoration: none;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+}
+
+// Athletics page styles
+.sport-section {
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  width: 610px;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.image-grid img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.sport-title {
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.sport-description {
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 60px;
+}
+
+// Resume page styles
+#english-btn, #french-btn {
+  background-color: #0C5485;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+  font-size: 12px;
+}
+
+#english-btn:hover, #french-btn:hover {
+  background-color: #0c476eff;
+}
+
+#english-btn.active, #french-btn.active {
+  background-color: #0C5485;
+}
+
+// Contact page styles
+.contact-section h2 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 0;
+  color: #0d0d13;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.contact-section h3 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 0;
+  color: #0d0d13;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.contact-section p {
+  margin-bottom: 10px;
+}
+
+.contact-section p.phone {
+  margin-bottom: 5px;
+}
+
+.contact-section p.note {
+  margin-bottom: 20px;
+}
+
+.contact-section p.email {
+  margin-bottom: 10px;
 }
