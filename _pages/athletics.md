@@ -13,7 +13,7 @@ permalink: /athletics/
       <img src="{{ site.baseurl }}/assets/images/EV4.png" />
     </div>
     <h2 class="sport-title">Eventing</h2>
-    <p class="sport-description">Back home, I competed in eventing. I participated in several French National Championships and received two national (one gold and one bronze title), regionals and departemental titles.</p>
+    <p class="sport-description">Back home, I competed in eventing. I participated in several French National Championships and received two national (one gold and one bronze title), regional and departemental titles.</p>
   </div>
 
   <div class="sport-section">
