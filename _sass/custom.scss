@@ -406,8 +406,9 @@ main.container {
 .box {
   flex: 1;
   padding: 15px;
-  border: 1px solid #ddd;
+  border: 1px solid #0c55858c;
   border-radius: 8px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #0c55858c;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: white;
 }
