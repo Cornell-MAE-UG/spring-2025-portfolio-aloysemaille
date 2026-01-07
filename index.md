@@ -14,9 +14,23 @@
 
 <div class="about-me-section">
   <h2>ABOUT ME</h2>
-  <p class="about-description">
-    My name is {{ site.name }}, and I am a French and Canadian citizen but lived in Paris, where I was born, my entire life before coming to the US to study engineering at Cornell University. I absolutely love to discover new places and meet new people, so I travel a lot. I always do a lot of sport, I am currently part of Cornell's Women Varsity Polo Team and Cornell Taekwondo Club. I also enjoy reading and doing art in my free time. My current career goals are to expand my knowledge of the space and quantum fields and gain experience in both. I am particularly interested in research and development, design and project management.
-  </p>
+  <div class="boxes-container">
+    <div class="box">
+      <p> FRENCH and CANADIAN</p>
+    </div>
+    <div class="box">
+      <p> I lived in Paris my entire life before coming to the US to study engineering at CORNELL University. </p>
+    </div>
+    <div class="box">
+      <p> My current career goals are to expand my knowledge of the space and quantum fields and gain experience in both. I am particularly interested in RESEARCH & DEVELOPMENT, DESIGN and PROJECT MANAGEMENT. </p>
+    </div>
+    <div class="box">
+      <p> STUDENT-ATHLETE </p>
+    </div>
+    <div class="box">
+      <p> Love to travel, read, do sports and make art. </p>
+    </div>
+  </div>
   <p>
     Take a look at <a href="{{ site.baseurl }}/projects/">my projects</a> and <a href="{{ site.baseurl }}/AloyseMaille_CV_EN.pdf">resume</a>.
   </p>  
