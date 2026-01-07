@@ -26,7 +26,7 @@
     </div>
   </div>
   <p class="take-look">
-    Take a look at <a href="{{ site.baseurl }}/projects/">my projects</a>,<a href="{{ site.baseurl }}/resume/">my resume</a>and my <a href="{{ site.baseurl }}/athletics/">athletic achievements</a>.
+    Take a look at <a href="{{ site.baseurl }}/projects/">my projects</a>,<a href="{{ site.baseurl }}/resume/">my resume</a> and <a href="{{ site.baseurl }}/athletics/">my athletic achievements</a>.
   </p>  
 </div>
 
