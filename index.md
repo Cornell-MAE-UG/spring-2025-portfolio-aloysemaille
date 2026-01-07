@@ -28,5 +28,8 @@
   <p class="take-look">
     Take a look at <a href="{{ site.baseurl }}/projects/">my projects</a>, <a href="{{ site.baseurl }}/resume/">my resume</a> and <a href="{{ site.baseurl }}/athletics/">my athletic achievements</a>.
   </p>  
+  <p class="take-look">
+    This portfolio website is not yet adapted for smaller screens such as phones, ipads or split screens. It is a work in progress and is regurlarly updated by me.
+  </p>
 </div>
 

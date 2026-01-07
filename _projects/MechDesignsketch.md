@@ -3,7 +3,7 @@ layout: project
 title: MECHANICAL DESIGN SKETCHES AND CAD
 description: Mech design favorites
 technologies: [MATLAB, State-Space models, Block Diagram, PD Control, requirements]
-image: /assets/images/MD1sk.png
+image: /assets/images/MD0.png
 ---
 <img src="{{ site.baseurl }}/assets/images/MD2sk.png" style="width:300px; border-radius:10px;" />
 <img src="{{ site.baseurl }}/assets/images/MD1sk.png" style="width:300px; border-radius:10px;" />

@@ -3,7 +3,7 @@ layout: project
 title: WINDSTOP
 description: Intro to mech design project
 technologies: [sketching, CAD, testing, design process]
-image: /assets/images/MD0.png
+image: /assets/images/IMD0.png
 ---
 <img src="{{ site.baseurl }}/assets/images/IMD2.JPEG" style="width:300px; border-radius:10px;" />
 <img src="{{ site.baseurl }}/assets/images/IMD3.png" style="width:300px; border-radius:10px;" />
