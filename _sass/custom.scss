@@ -335,9 +335,8 @@ main.container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    width: 620px; /* Adjust to fit 2 images of 300px + gap */
-    margin: 0 auto;
-    grid-column-start:left;
+    width: 610px; /* Adjust to fit 2 images of 300px + gap */
+    margin: 0;
   }
   .image-grid img {
     width: 300px;
