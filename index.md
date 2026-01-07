@@ -16,13 +16,13 @@
   <h2>ABOUT ME</h2>
   <div class="boxes-container">
     <div class="box">
-      <p> FRENCH and CANADIAN. Lived in Paris my entire life before coming to the US to study engineering at CORNELL University.</p>
+      <p> I have the French and Canadian nationalities. I lived in Paris my entire life and studied at a French highschool before coming to the US to study engineering at Cornell University.</p>
     </div>
     <div class="box">
-      <p> Current career goals: expand my knowledge of the space and quantum fields and gain experience in both. Particularly interested in RESEARCH & DEVELOPMENT, DESIGN and PROJECT MANAGEMENT. </p>
+      <p> My current career goals are to expand my knowledge and gain experience in the space and quantum fields. I am particularly interested in R&D, design and project management. </p>
     </div>
     <div class="box">
-      <p> STUDENT-ATHLETE. Also loves to travel, read, do sports and make art.</p>
+      <p> I am a student-athlete part of the varsity polo team. I also loves to travel, read, do other sports and make art.</p>
     </div>
   </div>
   <p class="take-look">
