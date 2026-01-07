@@ -318,6 +318,43 @@ main.container {
   transform: scale(1.05);
 }
 
+// Project in the page details
+
+  .carousel {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .carousel-container {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  .carousel img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 10px;
+  }
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+  }
+  .carousel-btn.prev {
+    left: 10px;
+  }
+  .carousel-btn.next {
+    right: 10px;
+  }
+  
 // Athletics page styles
 .sport-section {
   margin-bottom: 0px;

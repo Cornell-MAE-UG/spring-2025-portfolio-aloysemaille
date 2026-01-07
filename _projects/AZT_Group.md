@@ -5,14 +5,47 @@ description: Research
 technologies: [Clean Room, Experimental tools]
 image: /assets/images/ZT6.png
 ---
-<img src="{{ site.baseurl }}/assets/images/ZT1.png" style="width:300px; border-radius:10px;" />
-<img src="{{ site.baseurl }}/assets/images/ZT2.png" style="width:300px; border-radius:10px;" />
-<img src="{{ site.baseurl }}/assets/images/ZT3.png" style="width:300px; border-radius:10px;" />
-<img src="{{ site.baseurl }}/assets/images/ZT4.png" style="width:300px; border-radius:10px;" />
-<img src="{{ site.baseurl }}/assets/images/ZT5.png" style="width:300px; border-radius:10px;" />
-<img src="{{ site.baseurl }}/assets/images/ZT6.png" style="width:300px; border-radius:10px;" />
-<img src="{{ site.baseurl }}/assets/images/ZT10.png" style="width:300px; border-radius:10px;" />
-<img src="{{ site.baseurl }}/assets/images/ZT9.png" style="width:300px; border-radius:10px;" />
+
+<div class="carousel">
+  <div class="carousel-container" id="carousel-container">
+    <img src="{{ site.baseurl }}/assets/images/ZT1.png" />
+    <img src="{{ site.baseurl }}/assets/images/ZT2.png" />
+    <img src="{{ site.baseurl }}/assets/images/ZT3.png" />
+    <img src="{{ site.baseurl }}/assets/images/ZT4.png" />
+    <img src="{{ site.baseurl }}/assets/images/ZT5.png" />
+    <img src="{{ site.baseurl }}/assets/images/ZT6.png" />
+    <img src="{{ site.baseurl }}/assets/images/ZT10.png" />
+    <img src="{{ site.baseurl }}/assets/images/ZT9.png" />
+  </div>
+  <button class="carousel-btn prev" onclick="prevSlide()">&#10094;</button>
+  <button class="carousel-btn next" onclick="nextSlide()">&#10095;</button>
+</div>
+
+<script>
+  let currentIndex = 0;
+  const container = document.getElementById('carousel-container');
+  const images = container.children;
+  const totalImages = images.length;
+
+  function updateCarousel() {
+    const offset = -currentIndex * 320; // 300px width + 20px margin
+    container.style.transform = `translateX(${offset}px)`;
+  }
+
+  function nextSlide() {
+    currentIndex = (currentIndex + 1) % totalImages;
+    updateCarousel();
+  }
+
+  function prevSlide() {
+    currentIndex = (currentIndex - 1 + totalImages) % totalImages;
+    updateCarousel();
+  }
+
+  // Optional: Auto-slide every 3 seconds
+  //setInterval(nextSlide, 3000);
+</script>
+
 
 <div>   
 <p>I am part of the AFOSR Sub-team. My work as primarly focused on Qubits and resonators fabrication process design and implementation, as well as research on the impact of 2D-materials on phonon decoherence in quantum devices. I am trained and certified for CNF cleanroom access where I primarly perform my work.</p> 

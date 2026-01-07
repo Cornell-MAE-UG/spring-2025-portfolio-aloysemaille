@@ -16,3 +16,4 @@ permalink: /projects/
     {% endfor %}
 </div>
 </div>
+
