@@ -337,6 +337,7 @@ main.container {
     gap: 10px;
     width: 620px; /* Adjust to fit 2 images of 300px + gap */
     margin: 0 auto;
+    grid-column-start:left;
   }
   .image-grid img {
     width: 300px;

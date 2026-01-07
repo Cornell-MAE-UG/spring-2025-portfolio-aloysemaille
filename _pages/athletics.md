@@ -4,8 +4,18 @@ title: Athletics
 permalink: /athletics/
 ---
 
-
 <div class="contact-section">
+  <div class="sport-section">
+    <div class="image-grid">
+      <img src="{{ site.baseurl }}/assets/images/EV1.png" />
+      <img src="{{ site.baseurl }}/assets/images/EV2.png" />
+      <img src="{{ site.baseurl }}/assets/images/EV3.png" />
+      <img src="{{ site.baseurl }}/assets/images/EV4.png" />
+    </div>
+    <h2 class="sport-title">Eventing</h2>
+    <p class="sport-description">Back home, I used to compete in eventing. I participated in several French National Championships and received several national (one gold and one bronze title), regionals and departemental titles.</p>
+  </div>
+
   <div class="sport-section">
     <div class="image-grid">
       <img src="{{ site.baseurl }}/assets/images/POLO1.JPG" />
@@ -26,16 +36,5 @@ permalink: /athletics/
     </div>
     <h2 class="sport-title">Cornell Taekwondo Club</h2>
     <p class="sport-description">During my first semester at Cornell I discovered taekwondo. I went from white belt to currently black belt candidate and won several sparring medals in intercollegiate tournaments. Taekwondo is not my primary sport, however I believe it adds a lot to my athletic training for polo, helping me gain more flexibility, be stronger and have more balance.</p>
-  </div>
-
-  <div class="sport-section">
-    <div class="image-grid">
-      <img src="{{ site.baseurl }}/assets/images/EV1.png" />
-      <img src="{{ site.baseurl }}/assets/images/EV2.png" />
-      <img src="{{ site.baseurl }}/assets/images/EV3.png" />
-      <img src="{{ site.baseurl }}/assets/images/EV4.png" />
-    </div>
-    <h2 class="sport-title">Eventing</h2>
-    <p class="sport-description">Back home, I used to compete in eventing. I participated in several French National Championships and received several national (one gold and one bronze title), regionals and departemental titles.</p>
   </div>
 </div>

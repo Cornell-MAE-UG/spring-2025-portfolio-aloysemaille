@@ -2,6 +2,7 @@
 layout: default
 title: Contact
 permalink: /contact/
+published: false
 ---
 
 <div class="contact-section">
