@@ -1,6 +1,6 @@
 ---
 layout: project
-title: North Star - Pointing Control for Satellites
+title: NORTH STAR - POINTING CONTROL FOR SATELLITES
 description: System Dynamics Final Project
 technologies: [MATLAB, State-Space models, Block Diagram, PD Control, requirements]
 image: /assets/images/SD7.png

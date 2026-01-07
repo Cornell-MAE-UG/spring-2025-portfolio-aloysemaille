@@ -1,6 +1,6 @@
 ---
 layout: project
-title: WindStop
+title: WINDSTOP
 description: Intro to mech design project
 technologies: [sketching, CAD, testing, design process]
 image: /assets/images/IMD1.JPEG

@@ -1,6 +1,6 @@
 ---
 layout: project
-title: NASA L'SPACE MCA Academy
+title: NASA L'SPACE
 description: Semester long academy
 technologies: [JMARS, NX Siemens, risks, requirements, TRL, Systems]
 image: /assets/images/MCA3.png

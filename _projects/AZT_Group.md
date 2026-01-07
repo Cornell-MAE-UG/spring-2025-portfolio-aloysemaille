@@ -1,6 +1,6 @@
 ---
 layout: project
-title: ZT Group
+title: QUANTUM RESEARCH
 description: Research
 technologies: [Clean Room, Experimental tools]
 image: /assets/images/ZT_Group.jpg

@@ -215,7 +215,7 @@ main.container {
   font-weight: bold;
   font-size: 1.5rem;
   margin-left: 0;
-  margin-top: 30px;
+  margin-top: 20px;
   color: #0d0d13;
   justify-content: center;
   text-align: center;
@@ -280,7 +280,7 @@ main.container {
 
 .project-gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   padding: 20px;
   margin: 0 auto;
@@ -288,11 +288,8 @@ main.container {
 }
 
 .gallery-item {
-  overflow: hidden;
   text-align: center;
   transition: transform 0.3s ease;
-  //max-width: 250px;
-  //max-height: 300px;
 }
 
 .gallery-item img {
@@ -309,6 +306,8 @@ main.container {
   margin: 13px 0;
   font-size: 1rem;
   color: $text-color;
+  word-wrap: break-word;
+  white-space: normal;
 }
 
 .gallery-item a {
