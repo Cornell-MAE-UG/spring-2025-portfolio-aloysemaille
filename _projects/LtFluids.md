@@ -3,7 +3,7 @@ layout: project
 title: WEED WHACKER DISSECTION
 description: Fluids dissection
 technologies: []
-image: /assets/images/F1.png
+image: /assets/images/F0.jpg
 ---
 
 <div>

@@ -1,6 +1,6 @@
 ---
 layout: project
-title: MECHANICAL DESIGN SKETCHES
+title: MECHANICAL DESIGN SKETCHES AND CAD
 description: Mech design favorites
 technologies: [MATLAB, State-Space models, Block Diagram, PD Control, requirements]
 image: /assets/images/MD1sk.png
