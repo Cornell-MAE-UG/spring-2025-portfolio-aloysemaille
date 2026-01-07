@@ -3,7 +3,7 @@ layout: project
 title: QUANTUM RESEARCH
 description: Research
 technologies: [Clean Room, Experimental tools]
-image: /assets/images/ZT_Group.jpg
+image: /assets/images/ZT6.png
 ---
 <img src="{{ site.baseurl }}/assets/images/ZT1.png" style="width:300px; border-radius:10px;" />
 <img src="{{ site.baseurl }}/assets/images/ZT2.png" style="width:300px; border-radius:10px;" />
