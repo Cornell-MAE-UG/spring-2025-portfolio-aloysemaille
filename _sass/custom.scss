@@ -350,6 +350,7 @@ main.container {
     width: 610px; /* Adjust to fit 2 images of 300px + gap */
     margin: 0;
     margin-top: 10px;
+    margin-bottom: 0;
   }
   .image-grid img {
     width: 300px;
@@ -361,10 +362,12 @@ main.container {
     text-align: left;
     text-transform: uppercase;
     margin-top: 0px;
+    margin-bottom: 0;
   }
   .sport-description {
     text-align: left;
     margin-top:0px;
+    margin-bottom: 0;
   }
 
   #english-btn, #french-btn {
