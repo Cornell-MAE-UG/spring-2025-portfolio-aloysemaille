@@ -337,6 +337,7 @@ main.container {
     gap: 10px;
     width: 610px; /* Adjust to fit 2 images of 300px + gap */
     margin: 0;
+    margin-top: 10px;
   }
   .image-grid img {
     width: 300px;
@@ -347,7 +348,7 @@ main.container {
   .sport-title {
     text-align: left;
     text-transform: uppercase;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .sport-description {
     text-align: left;
