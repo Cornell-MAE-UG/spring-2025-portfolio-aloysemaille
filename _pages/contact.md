@@ -6,19 +6,19 @@ permalink: /contact/
 
 <div class="contact-section">
   <h2>How to contact me?</h2>
-  <p>
+  <p class="phone">
     US phone number: +1 (607) 797-5994
   </p>
-  <p>
+  <p class="phone">
     FR phone number: +33 7 89 47 77 81
   </p>
-  <p>
+  <p class="note">
     (Please understand that only one line is active as I move from one continent to the other.)
   </p>
-  <p> 
+  <p class="email"> 
     Email pro: aam299@cornell.edu
   </p>
-  <p> 
+  <p class="email"> 
     Email perso: maille.a@orange.fr
   </p>
   <p>

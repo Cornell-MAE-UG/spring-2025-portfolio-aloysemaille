@@ -4,33 +4,6 @@ title: Athletics
 permalink: /athletics/
 ---
 
-<style>
-  .sport-section {
-    margin-bottom: 40px;
-  }
-  .image-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    width: 320px; /* Adjust to fit 2 images of 150px + gap */
-    margin: 0 auto;
-  }
-  .image-grid img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 10px;
-  }
-  .sport-title {
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: 20px;
-  }
-  .sport-description {
-    text-align: center;
-    margin-top: 10px;
-  }
-</style>
 
 <div class="contact-section">
   <div class="sport-section">

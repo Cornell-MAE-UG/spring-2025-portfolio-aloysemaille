@@ -5,25 +5,6 @@ permalink: /resume/
 published: false
 ---
 
-<style>
-  #english-btn, #french-btn {
-    background-color: #0C5485;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 0 10px;
-    font-size: 12px;
-  }
-  #english-btn:hover, #french-btn:hover {
-    background-color: #0c476eff;
-  }
-  #english-btn.active, #french-btn.active {
-    background-color: #0C5485;
-  }
-</style>
-
 <div style="text-align: center; margin-bottom: 20px; margin-top: 20px;">
   <button id="english-btn" class="active">English</button>
   <button id="french-btn">Français</button>
