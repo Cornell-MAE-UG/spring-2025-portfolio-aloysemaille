@@ -2,7 +2,7 @@
 layout: default
 title: Resume
 permalink: /resume/
-published: false
+published: true
 ---
 
 <div style="text-align: center; margin-bottom: 20px; margin-top: 20px;">

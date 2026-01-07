@@ -2,7 +2,7 @@
 layout: default
 title: Athletics
 permalink: /athletics/
-published: false
+published: true
 ---
 
 <div class="contact-section">
