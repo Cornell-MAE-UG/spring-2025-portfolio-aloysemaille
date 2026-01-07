@@ -4,8 +4,27 @@ title: Resume
 permalink: /resume/
 ---
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <button id="english-btn">English</button>
+<style>
+  #english-btn, #french-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    font-size: 16px;
+  }
+  #english-btn:hover, #french-btn:hover {
+    background-color: #45a049;
+  }
+  #english-btn.active, #french-btn.active {
+    background-color: #45a049;
+  }
+</style>
+
+<div style="text-align: center; margin-bottom: 20px; margin-top: 20px;">
+  <button id="english-btn" class="active">English</button>
   <button id="french-btn">Français</button>
 </div>
 
@@ -15,12 +34,21 @@ permalink: /resume/
 </div>
 
 <script>
-  document.getElementById('english-btn').addEventListener('click', function() {
-    document.getElementById('english-cv').style.display = 'block';
-    document.getElementById('french-cv').style.display = 'none';
+  const englishBtn = document.getElementById('english-btn');
+  const frenchBtn = document.getElementById('french-btn');
+  const englishCv = document.getElementById('english-cv');
+  const frenchCv = document.getElementById('french-cv');
+
+  englishBtn.addEventListener('click', function() {
+    englishCv.style.display = 'block';
+    frenchCv.style.display = 'none';
+    englishBtn.classList.add('active');
+    frenchBtn.classList.remove('active');
   });
-  document.getElementById('french-btn').addEventListener('click', function() {
-    document.getElementById('english-cv').style.display = 'none';
-    document.getElementById('french-cv').style.display = 'block';
+  frenchBtn.addEventListener('click', function() {
+    englishCv.style.display = 'none';
+    frenchCv.style.display = 'block';
+    frenchBtn.classList.add('active');
+    englishBtn.classList.remove('active');
   });
 </script>
