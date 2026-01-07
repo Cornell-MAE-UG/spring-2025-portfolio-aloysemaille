@@ -303,6 +303,7 @@ main.container {
   margin-left: 0;
   color: #0d0d13; 
   justify-content: center;
+  text-align: center
  }
 
 .contact-section h2 {
@@ -314,6 +315,16 @@ main.container {
   justify-content: center;
   margin-top: 50px;
   margin-bottom: 10px;
+}
+
+.about-me-section h2::before {
+  content: "★";
+  margin-right: 10px;
+}
+
+.about-me-section h2::after {
+  content: "★";
+  margin-left: 10px;
 }
 
 .contact-section h3 {
@@ -348,7 +359,7 @@ main.container {
   .sport-title {
     text-align: left;
     text-transform: uppercase;
-    margin-top: 10px;
+    margin-top: 0px;
   }
   .sport-description {
     text-align: left;
