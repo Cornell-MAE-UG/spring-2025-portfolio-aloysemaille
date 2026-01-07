@@ -57,7 +57,7 @@ image: /assets/images/ZT6.png
   updateCarousel();
 
   // Optional: Auto-slide every 3 seconds
-  setInterval(nextSlide, 3000);
+  //setInterval(nextSlide, 3000);
 </script>
 
 <div>   

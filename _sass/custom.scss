@@ -322,7 +322,7 @@ main.container {
 
   .carousel {
     position: relative;
-    max-width: 800px; /* Adjusted for three images */
+    max-width: 1600px; /* Adjusted for three images */
     margin: 0; /* Aligned to the left */
     overflow: hidden;
   }
@@ -332,14 +332,14 @@ main.container {
     align-items: center;
   }
   .carousel .left img, .carousel .right img {
-    width: 200px;
+    width: 400px;
     height: auto;
     border-radius: 10px;
     margin: 0 10px;
-    opacity: 0.5;
+    opacity: 0.4;
   }
   .carousel .center img {
-    width: 300px;
+    width: 600px;
     height: auto;
     border-radius: 10px;
     margin: 0 10px;
