@@ -5,12 +5,55 @@ description: System Dynamics Final Project
 technologies: [MATLAB, State-Space models, Block Diagram, PD Control, requirements]
 image: /assets/images/SD7.png
 ---
-<img src="{{ site.baseurl }}/assets/images/SD5.png" style="width:300px; border-radius:10px;" />
-<img src="{{ site.baseurl }}/assets/images/SD2.png" style="width:300px; border-radius:10px;" />
-<img src="{{ site.baseurl }}/assets/images/SD3.png" style="width:300px; border-radius:10px;" />
-<img src="{{ site.baseurl }}/assets/images/SD4.png" style="width:300px; border-radius:10px;" />
-<img src="{{ site.baseurl }}/assets/images/SD1.png" style="width:300px; border-radius:10px;" />
-<img src="{{ site.baseurl }}/assets/images/SD6.png" style="width:300px; border-radius:10px;" />
+
+<div class="carousel">
+  <div class="carousel-container">
+    <div class="left"><img id="left-img" src="" /></div>
+    <div class="center"><img id="center-img" src="" /></div>
+    <div class="right"><img id="right-img" src="" /></div>
+  </div>
+  <button class="carousel-btn prev" onclick="prevSlide()">&#10094;</button>
+  <button class="carousel-btn next" onclick="nextSlide()">&#10095;</button>
+</div>
+
+<div class="technologies">
+  {% for tech in page.technologies %}
+    <span class="tech-box">{{ tech }}</span>
+  {% endfor %}
+</div>
+
+<script>
+  const images = [
+    '{{ site.baseurl }}/assets/images/SD1.png',
+    '{{ site.baseurl }}/assets/images/SD2.png',
+    '{{ site.baseurl }}/assets/images/SD3.png',
+    '{{ site.baseurl }}/assets/images/SD4.png',
+    '{{ site.baseurl }}/assets/images/SD5.png',
+    '{{ site.baseurl }}/assets/images/SD6.png'
+  ];
+  let currentIndex = 0;
+
+  function updateCarousel() {
+    const leftIndex = (currentIndex - 1 + images.length) % images.length;
+    const rightIndex = (currentIndex + 1) % images.length;
+    document.getElementById('left-img').src = images[leftIndex];
+    document.getElementById('center-img').src = images[currentIndex];
+    document.getElementById('right-img').src = images[rightIndex];
+  }
+
+  function nextSlide() {
+    currentIndex = (currentIndex + 1) % images.length;
+    updateCarousel();
+  }
+
+  function prevSlide() {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    updateCarousel();
+  }
+
+  // Initialize
+  updateCarousel();
+</script>
 
 <div>
 <p>This is the final groupwork of MAE 3260: System Dynamics.</p>

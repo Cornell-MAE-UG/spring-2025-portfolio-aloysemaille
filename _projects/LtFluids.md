@@ -23,7 +23,6 @@ image: /assets/images/F0.jpg
 
 <script>
   const images = [
-    '{{ site.baseurl }}/assets/images/CertificateLspace.jpg',
     '{{ site.baseurl }}/assets/images/F0.jpg',
     '{{ site.baseurl }}/assets/images/F1.png',
     '{{ site.baseurl }}/assets/images/F2.png',
