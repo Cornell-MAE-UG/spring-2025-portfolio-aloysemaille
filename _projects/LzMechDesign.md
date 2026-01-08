@@ -54,9 +54,12 @@ image: /assets/images/IMD0.png
 
 
 <div>
-<p>This project was part of my Intro to Mechanical Design class of Spring 2025.</p>
+<p>This project was part of my Intro to Mechanical Design class of Spring 2025, which consisted in designing an innovation functional product from scratch.</p>
     
 <p>My team decided to create an easy adaptable device to fix to any window and fix its opening to a set point, even in cases of strong winds. The devices has for main target audience students or people leasing their place of living, who cannot install permanent devices on their window and rely primarly on the use of their windows to regulate the temperature of their households.</p>
 
-<p>Several prototypes of the design were made using mainly laser cutting and 3D printing, and the industry-ready prototypes were made using CAD renderings.</p> 
+<p>Several prototypes of the design were made using mainly laser cutting and 3D printing, and the industry-ready prototypes were made using CAD renderings.</p>
+
+<p>A set of requirements  was defined after surveying potential customer for their needs. All of those requirements were met and the risks for this designed were evaluated to be low.</p>
+
 </div>

@@ -62,9 +62,9 @@ image: /assets/images/ZT6.png
 </script>
 
 <div>   
-<p>I am part of the AFOSR Sub-team. My work as primarly focused on Qubits and resonators fabrication process design and implementation, as well as research on the impact of 2D-materials on phonon decoherence in quantum devices. I am trained and certified for CNF cleanroom access where I primarly perform my work.</p> 
+<p>I am part of the AFOSR Sub-team. My work is primarly focused on Qubits and Resonators fabrication process design and implementation, as well as research on the impact of 2D-materials in quantum devices. I am trained and certified for CNF cleanroom access where I primarly perform my work.</p> 
 
-<p>I am proficient in advanced fabrication techniques including optical and electron-beam photolithography processes, dry transfer of 2D materials, and reactive ion etching (RIE), as well as sputtering, ion milling, and controlled oxidation. I can also perform measurements and optical microscope observations. I can operate any associated imaging/analysis software for nanoscale device inspection and alignment. </p>
+<p>I am proficient in advanced fabrication techniques including optical and electron-beam photolithography processes, dry transfer of 2D materials, sputtering, ion milling, controlled oxidation and reactive ion etching. I can operate any associated imaging/analysis softwares for nanoscale device inspection and alignment, as well as measurement tools and digital/optical microscopes. </p>
 
 <p>I was awarded the Summer 2025 Research Award, funded by Boeing. I also got the wonderful opportunity to be featured on Cornell Engineering media. <a href="https://www.linkedin.com/posts/cornell-engineering_aloyse-maille-27-fabricates-quantum-resonators-activity-7370826875004198935-8iyo?utm_source=share&utm_medium=member_desktop&rcm=ACoAAETesJYBOvL9oqfU1LiZcU4lG65tGHJjiYM" target="_blank">See featuring here!</a></p>
 

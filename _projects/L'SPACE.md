@@ -62,11 +62,10 @@ image: /assets/images/MCA3.png
 <div>
 <p> During the Spring 2025, I completed NASA's L'SPACE Program's MCA Academy. </p>
 
-<p> This academy consisted of weekly online lectures, as well as remotely working together with an amazing team on the first steps of a project: the Concept and Technology Development phase and the Preliminary Design and Technology Completion phase. </p>
-
 <p> My primary roles were Lead Systems Engineer and Mission Outreach Officer. </p> 
 
-<p> Our Mission Task consisted in gaining understanding on Venus and the interaction between its surface and atmosphere, with the use of an Aerobot System. We learned to use NASA’s tools to define science objective, risks and requirements, but also mission location, concept of operations and the programmatic, science and engineering components of the mission. Some of those newly acquired skills are certified by Skill Badges displayed on my certificate (Teaming, Requirements, Risk Management, Project Management, Systems, Heat Transfer, Siemens NX CAD).</p>    
+<p> This academy consisted of weekly online lectures, as well as remotely working together with an amazing team on the first steps of a project: the Concept and Technology Development phase and the Preliminary Design and Technology Completion phase. </p>
 
+<p> Our Mission Task consisted in gaining understanding on Venus and the interaction between its surface and atmosphere, with the use of an Aerobot System. We learned to use NASA’s tools to define science objective, risks and requirements, but also mission location, concept of operations and the programmatic, science and engineering components of the mission. Some of those newly acquired skills are certified by Skill Badges displayed on my certificate (Teaming, Requirements, Risk Management, Project Management, Systems, Heat Transfer, Siemens NX CAD).</p>    
 </div>
 

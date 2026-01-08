@@ -2,7 +2,7 @@
 layout: project
 title: WEED WHACKER DISSECTION
 description: Fluids dissection
-technologies: [Venturi, Mechanical Dissection, Physical Tools, Critical Thinking, Teamwork, Creativity]
+technologies: [Venturi, Mechanical Dissection, Physical Tools, Critical Thinking, Teamwork, Creativity, Digital Creation Tools]
 image: /assets/images/F0.jpg
 ---
 <div class="carousel">
@@ -62,19 +62,16 @@ image: /assets/images/F0.jpg
 
 
 <div>
-<p>This is the final groupwork of MAE 3230: Introduction to Fluid Dynamics.</p>
-
-<p>https://youtu.be/3ZLGq0wO1b0</p>
+<p>This is the final group project of MAE 3230: Introduction to Fluid Dynamics, which consisted in the dissection of a fluid device - in our case, a weed whacker - in order to identify the relevant components and proceed to the fluid analysis of the system. </p>
+<p><a href=https://youtu.be/3ZLGq0wO1b0 target="_blank"> See resulting video here!</a></p>
 </div>
 
 <div>
-<p> In this project, I worked on the weed whacker dissection itself, deconstructing the object in order to understand how it works. I make the block diagram and drew some of the schematics for our presentation. I participated in the uncovering of the principles and the mechanisms of the device. Finally, I participated in the video voice over.</p>
-    
-<p>This project consisted in the dissection of a fluid device, which in our case was a weed whacker, in order to identify the relevant components and proceed to the fluid analysis of the system.</p>
+<p> In this project, I worked on the weed whacker dissection itself, deconstructing the object in order to understand how it works. I made the block diagram and drew some of the schematics for our presentation. I participated in the uncovering of the principles and the mechanisms of the device. Finally, I also participated in the video voice over.</p>
 
 <p>Several main fluid components where identified in the system such as the carburetor with its Venturi, the flywheel and the piston. Detailed explanations of their functionning and relevant calculations were performed.</p> 
 </div>
 
 <div>
-<p>Work conducted in collaboration with Jordan Vogel, Kaila Danielson, Natalie Kaplan and Zawad Dewan, Cornell Mechanical Engineering Students.</p> 
+<p>This work was conducted in collaboration with Jordan Vogel, Kaila Danielson, Natalie Kaplan and Zawad Dewan, all Cornell Mechanical Engineering Students.</p> 
 </div>
