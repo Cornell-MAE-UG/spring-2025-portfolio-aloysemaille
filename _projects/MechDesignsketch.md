@@ -55,5 +55,5 @@ image: /assets/images/MD0.png
 </script>
 
 <div>
-<p>This is a collection of my favorite works in mechanical design</p>
+<p>This is a collection of my favorite works produced through the course of the introduction to mechanical design class. Most of those works are based on real life physical objects.</p>
 </div>

@@ -63,7 +63,7 @@ image: /assets/images/F0.jpg
 
 <div>
 <p>This is the final group project of MAE 3230: Introduction to Fluid Dynamics, which consisted in the dissection of a fluid device - in our case, a weed whacker - in order to identify the relevant components and proceed to the fluid analysis of the system. </p>
-<p><a href=https://youtu.be/3ZLGq0wO1b0 target="_blank"> See resulting video here!</a></p>
+<p><a href="https://youtu.be/3ZLGq0wO1b0" target="_blank"> See resulting video here!</a></p>
 </div>
 
 <div>
