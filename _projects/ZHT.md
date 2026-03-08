@@ -15,7 +15,8 @@ image: /assets/images/HT1.png
 </div>
 
 <div>
-<p><a href="/assets/ZHT.pdf" target="_blank">View the full assignment PDF</a></p>
+<h3>View the full assignment PDF:</h3>
+<iframe src="/assets/ZHT.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 4px;"></iframe>
 </div>
 
 <div>
