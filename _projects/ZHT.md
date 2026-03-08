@@ -3,7 +3,7 @@ layout: project
 title: HEAT TRANSFER 
 description: Heat Transfer Portfolio Assignement
 technologies: [thermal resistance network analysis, boundary condiditions, iteration, fin, heat transfer]
-image: /assets/images/
+image: /assets/images/HT1.png
 ---
 <div>
 <p>This is an assignement made in the context of the heat transfer class for mechanical engineers at Cornell University.</p>
@@ -15,7 +15,7 @@ image: /assets/images/
 </div>
 
 <div>
-<p><a href="/assets/ZHT.pdf" target="_blank">View the full assignment PDF</a></p>
+<p><a href="/assets/images/ZHT.pdf" target="_blank">View the full assignment PDF</a></p>
 </div>
 
 <div>
