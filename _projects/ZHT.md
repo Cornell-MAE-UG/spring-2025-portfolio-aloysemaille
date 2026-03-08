@@ -16,7 +16,7 @@ image: /assets/images/HT1.png
 
 <div>
 <h3>View the full assignment PDF:</h3>
-<iframe src="/assets/ZHT.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 4px;"></iframe>
+<iframe src="{{ site.baseurl }}/assets/ZHT.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 4px;"></iframe>
 </div>
 
 <div>
