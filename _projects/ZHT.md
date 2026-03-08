@@ -20,5 +20,5 @@ image: /assets/images/HT1.png
 </div>
 
 <div>
-<p>This work is entirely my own.</p> 
+<p>This work is entirely my own and was completed using class material.</p> 
 </div>
