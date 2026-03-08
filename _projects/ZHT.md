@@ -15,7 +15,7 @@ image: /assets/images/HT1.png
 </div>
 
 <div>
-<p><a href="/assets/images/ZHT.pdf" target="_blank">View the full assignment PDF</a></p>
+<p><a href="/assets/ZHT.pdf" target="_blank">View the full assignment PDF</a></p>
 </div>
 
 <div>
